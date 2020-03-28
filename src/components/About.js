@@ -1,12 +1,18 @@
 import React from "react";
-import image from "../images/Selfie.JPG";
+
+import image from "../images/selfie2.jpg";
 
 function About() {
 	return (
 		<div className="container">
+			<div
+				class="hero-wrap hero-wrap-2 js-fullheight"
+				src={image}
+				alt="..."
+			></div>
 			<div className="js-fullheight d-flex justify-content-center align-items-center">
 				<div className="col-md-8 text text-center">
-					<div>
+					<div className="navimage">
 						<img
 							src={image}
 							alt="..."
@@ -16,7 +22,7 @@ function About() {
 					</div>
 					<div className="desc">
 						<h2 className="subheading">Hello I'm</h2>
-						<h1 className="mb-4">Elen Henderson</h1>
+						<h1 className="mb-4">Sanjula Mahathantila</h1>
 						<p className="mb-4">
 							I am A Blogger Far far away, behind the word
 							mountains, far from the countries Vokalia and
@@ -24,23 +30,17 @@ function About() {
 							they live in Bookmarksgrove right at the coast of
 							the Semantics, a large language ocean.
 						</p>
-						<ul className="ftco-social mt-3">
-							<li className="ftco-animate">
-								<a href="#">
-									<span className="icon-twitter"></span>
+						<div className="columns download">
+							<p>
+								<a
+									href="/"
+									className="resumebutton btn btn-dark"
+								>
+									<i className="fa fa-download"></i>Download
+									Resume
 								</a>
-							</li>
-							<li className="ftco-animate">
-								<a href="#">
-									<span className="icon-facebook"></span>
-								</a>
-							</li>
-							<li className="ftco-animate">
-								<a href="#">
-									<span className="icon-instagram"></span>
-								</a>
-							</li>
-						</ul>
+							</p>
+						</div>
 					</div>
 				</div>
 			</div>

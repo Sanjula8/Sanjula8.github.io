@@ -4,7 +4,7 @@ import logo from "./logo.svg";
 import { BrowserRouter, Route, Link } from "react-router-dom";
 import "font-awesome/css/font-awesome.min.css";
 import About from "./components/About";
-// import Projects from "./components/Projects";
+import Projects from "./components/Projects";
 // import Contact from "./components/Contact";
 import Navbar from "./components/Navbar/Nav";
 import "./App.css";
@@ -15,6 +15,7 @@ function App() {
 		<BrowserRouter>
 			<Navbar />
 			<About />
+			<Projects />
 		</BrowserRouter>
 	);
 }

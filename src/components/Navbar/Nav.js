@@ -1,4 +1,11 @@
 import React from "react";
+import {
+	faGithubAlt,
+	faInstagram,
+	faFacebook,
+	faTwitter
+} from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Navbar() {
 	return (
@@ -27,53 +34,64 @@ function Navbar() {
 				<ul className="nav flex-column bg-white mb-0">
 					<li className="nav-item">
 						<a href="/" className="nav-link text-dark bg-light">
-							<i className="fa fa-th-large mr-3 text-primary fa-fw"></i>
+							<i className="mr-3 text-primary fa-fw"></i>
 							Home
 						</a>
 					</li>
 					<li className="nav-item">
 						<a href="/About" className="nav-link text-dark">
-							<i className="fa fa-address-card mr-3 text-primary fa-fw"></i>
+							<i className="mr-3 text-primary fa-fw"></i>
 							About
 						</a>
 					</li>
 					<li className="nav-item">
 						<a href="/Portfolio" className="nav-link text-dark">
-							<i className="fa fa-cubes mr-3 text-primary fa-fw"></i>
+							<i className="mr-3 text-primary fa-fw"></i>
 							Portfolio
 						</a>
 					</li>
 					<li className="nav-item">
 						<a href="/Contact" className="nav-link text-dark">
-							<i className="fa fa-picture-o mr-3 text-primary fa-fw"></i>
+							<i className="mr-3 text-primary fa-fw"></i>
 							Contact
 						</a>
 					</li>
 				</ul>
-				<div classname="nav-footer">
-					<ul>
-						<li>
-							<a href="#">
-								<i className="fa-fa-facebook icon-facebook"></i>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<i className="icon-twitter"></i>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<i className="icon-instagram"></i>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<i className="icon-linkedin"></i>
-							</a>
-						</li>
-					</ul>
-				</div>
+
+				<ul className="mt-3 social">
+					<li className="ftco-animate">
+						<a href="#">
+							<FontAwesomeIcon
+								className="facebook"
+								icon={faFacebook}
+							/>
+						</a>
+					</li>
+					<li className="ftco-animate">
+						<a href="#">
+							<FontAwesomeIcon
+								className="twitter"
+								icon={faTwitter}
+							/>
+						</a>
+					</li>
+					<li className="ftco-animate">
+						<a href="#">
+							<FontAwesomeIcon
+								className="instagram"
+								icon={faInstagram}
+							/>
+						</a>
+					</li>
+					<li className="ftco-animate">
+						<a href="#">
+							<FontAwesomeIcon
+								className="github"
+								icon={faGithubAlt}
+							/>
+						</a>
+					</li>
+				</ul>
 			</div>
 		</div>
 	);

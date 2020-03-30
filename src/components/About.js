@@ -10,7 +10,7 @@ function About() {
 				src={image}
 				alt="..."
 			></div>
-			<div className="js-fullheight d-flex justify-content-center align-items-center">
+			<div className="js-fullheight d-flex justify-content-center align-items-center article-margin">
 				<div className="col-md-8 text text-center">
 					<div className="navimage">
 						<img

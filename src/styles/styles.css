@@ -41,8 +41,10 @@ ul {
 }
 
 .navimage {
-	width: 250px;
-	height: 250px;
+	width: 50%;
+	height: 230px;
+	margin-left: 25%;
+	margin-bottom: 20px;
 	border-radius: 50%;
 	position: relative;
 	overflow: hidden;
@@ -125,4 +127,8 @@ body {
 
 .text-gray {
 	color: #aaa;
+}
+
+.article-margin {
+	margin-left: 200px;
 }

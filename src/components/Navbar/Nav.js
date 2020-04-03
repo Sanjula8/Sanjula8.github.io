@@ -2,14 +2,15 @@ import React from "react";
 import {
 	faGithubAlt,
 	faInstagram,
-	faFacebook,
-	faTwitter
+	faLinkedin
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import "../Navbar/nav.css";
+import "../../styles/styles.css";
 
 function Navbar() {
 	return (
-		<div className="container">
+		<aside className="container">
 			<div
 				className="vertical-nav bg-white s-fullheight text-center"
 				id="sidebar"
@@ -26,12 +27,10 @@ function Navbar() {
 						</div>
 					</div>
 				</div>
-
 				<p className="text-gray font-weight-bold text-uppercase px-3 small pb-4 mb-0">
-					Main
+					Hello!
 				</p>
-
-				<ul className="nav flex-column bg-white mb-0">
+				<ul className="nav flex-column bg-white mb-0 main-nav">
 					<li className="nav-item">
 						<a href="/" className="nav-link text-dark bg-light">
 							<i className="mr-3 text-primary fa-fw"></i>
@@ -39,13 +38,13 @@ function Navbar() {
 						</a>
 					</li>
 					<li className="nav-item">
-						<a href="/About" className="nav-link text-dark">
+						<a href="/" className="nav-link text-dark">
 							<i className="mr-3 text-primary fa-fw"></i>
 							About
 						</a>
 					</li>
 					<li className="nav-item">
-						<a href="/Portfolio" className="nav-link text-dark">
+						<a href="/portfolio" className="nav-link text-dark">
 							<i className="mr-3 text-primary fa-fw"></i>
 							Portfolio
 						</a>
@@ -57,26 +56,9 @@ function Navbar() {
 						</a>
 					</li>
 				</ul>
-
 				<ul className="mt-3 social">
 					<li className="ftco-animate">
-						<a href="#">
-							<FontAwesomeIcon
-								className="facebook"
-								icon={faFacebook}
-							/>
-						</a>
-					</li>
-					<li className="ftco-animate">
-						<a href="#">
-							<FontAwesomeIcon
-								className="twitter"
-								icon={faTwitter}
-							/>
-						</a>
-					</li>
-					<li className="ftco-animate">
-						<a href="#">
+						<a href="https://www.instagram.com/thesunmademeblind/">
 							<FontAwesomeIcon
 								className="instagram"
 								icon={faInstagram}
@@ -84,16 +66,29 @@ function Navbar() {
 						</a>
 					</li>
 					<li className="ftco-animate">
-						<a href="#">
+						<a href="https://github.com/Sanjula8">
 							<FontAwesomeIcon
 								className="github"
 								icon={faGithubAlt}
 							/>
 						</a>
 					</li>
+					<li className="ftco-animate">
+						<a href="https://www.linkedin.com/in/sanjula-mahathantila-0046a7a3/">
+							<FontAwesomeIcon
+								className="github"
+								icon={faLinkedin}
+							/>
+						</a>
+					</li>
 				</ul>
 			</div>
-		</div>
+			<footer class="page-footer font-small blue">
+				<div class="footer-copyright text-center py-3">
+					© 2020 Copyright Sanjula
+				</div>
+			</footer>
+		</aside>
 	);
 }
 

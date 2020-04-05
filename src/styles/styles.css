@@ -4,6 +4,7 @@
 }
 .resumebutton:hover {
 	background-color: #ffffff;
+	color: rgb(237, 187, 79);
 }
 
 .hero-wrap {
@@ -38,6 +39,7 @@ ul {
 .period {
 	font-size: 60px;
 	line-height: 70px;
+	color: #aaa;
 }
 
 .navimage {

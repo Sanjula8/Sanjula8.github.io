@@ -34,12 +34,6 @@ function Navbar() {
 					<li className="nav-item">
 						<a href="/" className="nav-link text-dark bg-light">
 							<i className="mr-3 text-primary fa-fw"></i>
-							Home
-						</a>
-					</li>
-					<li className="nav-item">
-						<a href="/" className="nav-link text-dark">
-							<i className="mr-3 text-primary fa-fw"></i>
 							About
 						</a>
 					</li>
@@ -50,7 +44,7 @@ function Navbar() {
 						</a>
 					</li>
 					<li className="nav-item">
-						<a href="/Contact" className="nav-link text-dark">
+						<a href="/contact" className="nav-link text-dark">
 							<i className="mr-3 text-primary fa-fw"></i>
 							Contact
 						</a>

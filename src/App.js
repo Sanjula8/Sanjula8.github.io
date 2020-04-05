@@ -4,13 +4,12 @@ import logo from "./logo.svg";
 import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 import "font-awesome/css/font-awesome.min.css";
 import About from "./components/About";
-import Portfolio from "./components/Portfolio";
+import Portfolio from "./components/Portfolio/Portfolio";
 // import Contact from "./components/Contact";
 import Navbar from "./components/Navbar/Nav";
 import "./App.css";
 import "./styles/styles.css";
-import Contact from "./components/Contact";
-
+import Contact from "./components/Contact/Contact";
 function App() {
 	return (
 		<div>

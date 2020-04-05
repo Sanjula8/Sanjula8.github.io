@@ -1,7 +1,7 @@
 import React from "react";
 
-import image from "../images/selfie2.jpg";
-import Contact from "../components/Contact";
+import image from "../images/meandcat.jpg";
+import resume from "../resume/smaharesume.pdf";
 
 function About() {
 	return (
@@ -31,16 +31,13 @@ function About() {
 						<div className="columns download">
 							<p>
 								<a
-									href="/"
+									href={resume}
 									className="resumebutton btn btn-dark"
 								>
 									<i className="fa fa-download"></i>Download
 									Resume
 								</a>
 							</p>
-						</div>
-						<div className="container desc">
-							<Contact />
 						</div>
 					</div>
 				</div>

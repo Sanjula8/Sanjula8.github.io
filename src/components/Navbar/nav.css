@@ -11,3 +11,18 @@ footer {
 	bottom: 0px;
 	position: absolute;
 }
+
+.nav-link :hover {
+	background-color: yellow;
+}
+
+.nav-name {
+	font-family: "Poppins", Arial, sans-serif;
+	width: 100%;
+	font-weight: 900;
+	font-size: 34px;
+}
+
+ul {
+	font-family: "Poppins", Arial, sans-serif;
+}

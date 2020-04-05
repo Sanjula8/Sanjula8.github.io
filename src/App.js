@@ -13,7 +13,7 @@ import Contact from "./components/Contact/Contact";
 function App() {
 	return (
 		<div>
-			<Router>
+			<Router basename="src">
 				<Navbar />
 				<Route exact path="/">
 					<About />

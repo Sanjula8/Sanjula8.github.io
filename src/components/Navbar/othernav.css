@@ -1,0 +1,73 @@
+.social {
+	margin-right: 40px;
+}
+
+.main-nav {
+	margin-right: 20px;
+}
+
+footer {
+	font-size: xx-small;
+	bottom: 0px;
+	position: absolute;
+}
+
+.nav-link :hover {
+	background-color: yellow;
+}
+
+.nav-name {
+	font-family: "Poppins", Arial, sans-serif;
+	width: 100%;
+	font-weight: 900;
+	font-size: 34px;
+}
+
+ul {
+	font-family: "Poppins", Arial, sans-serif;
+}
+
+.vertical-nav {
+	min-width: 17rem;
+	width: 17rem;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	left: 0;
+	box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+	transition: all 0.4s;
+}
+/* for toggle behavior */
+
+#sidebar.active {
+	margin-left: -17rem;
+}
+
+#content.active {
+	width: 100%;
+	margin: 0;
+}
+
+@media (max-width: 700px) {
+	aside .vertical-nav {
+		width: 5rem !important;
+		min-width: 5rem !important;
+	}
+}
+
+@media (max-width: 768px) {
+	#sidebar {
+		margin-left: -17rem;
+	}
+	#sidebar.active {
+		margin-left: 0;
+	}
+	#content {
+		width: 100%;
+		margin: 0;
+	}
+	#content.active {
+		margin-left: 17rem;
+		width: calc(100% - 17rem);
+	}
+}

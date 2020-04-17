@@ -2,11 +2,12 @@ import React from "react";
 import {
 	faGithubAlt,
 	faInstagram,
-	faLinkedin
+	faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "../Navbar/nav.css";
 import "../../styles/styles.css";
+import { Link } from "react-router-dom";
 
 function Navbar() {
 	return (
@@ -32,23 +33,63 @@ function Navbar() {
 				</p>
 				<ul className="nav flex-column bg-white mb-0 main-nav">
 					<li className="nav-item">
+						<Link
+							to="/"
+							className={
+								window.location.pathname === "/" ||
+								window.location.pathname === "/about"
+									? "nav-link active"
+									: "nav-link"
+							}
+						>
+							<i className="mr-3 text-primary fa-fw"></i>
+							<div className="nav-link text-dark">About</div>
+						</Link>
+					</li>
+					{/* <li className="nav-item">
 						<a href="/" className="nav-link text-dark bg-light">
 							<i className="mr-3 text-primary fa-fw"></i>
 							About
 						</a>
+					</li> */}
+					<li className="nav-item">
+						<Link
+							to="/portfolio"
+							className={
+								window.location.pathname === "/portfolio"
+									? "nav-link active"
+									: "nav-link"
+							}
+						>
+							<i className="mr-3 text-primary fa-fw"></i>
+
+							<div className="nav-link text-dark">Portfolio</div>
+						</Link>
 					</li>
+					{/* 
 					<li className="nav-item">
 						<a href="/portfolio" className="nav-link text-dark">
-							<i className="mr-3 text-primary fa-fw"></i>
 							Portfolio
 						</a>
-					</li>
+					</li> */}
 					<li className="nav-item">
-						<a href="/contact" className="nav-link text-dark">
+						<Link
+							to="/contact"
+							className={
+								window.location.pathname === "/contact"
+									? "nav-link active"
+									: "nav-link"
+							}
+						>
 							<i className="mr-3 text-primary fa-fw"></i>
+							<div className="nav-link text-dark">Contact</div>
+						</Link>
+					</li>
+					{/* <li className="nav-item">
+						<a href="/contact" className="nav-link text-dark">
 							Contact
 						</a>
-					</li>
+					</li> */}
 				</ul>
 				<ul className="mt-3 social">
 					<li className="ftco-animate">
@@ -77,10 +118,8 @@ function Navbar() {
 					</li>
 				</ul>
 			</div>
-			<footer class="page-footer font-small blue">
-				<div class="footer-copyright text-center py-3">
-					© 2020 Copyright Sanjula
-				</div>
+			<footer class="page-footer font-small">
+				<div class="footer-copyright">© 2020 Copyright Sanjula</div>
 			</footer>
 		</aside>
 	);

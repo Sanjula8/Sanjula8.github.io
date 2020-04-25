@@ -12,10 +12,55 @@ body {
 .contact-form h1 {
 	font-size: 42px;
 	font-family: "Pacifico", sans-serif;
-	margin: 0 0 50px;
 	text-align: center;
 }
-.contact-form .form-group {
+
+.contact-words {
+	text-align: center;
+	font-size: 20px;
+	font-family: "Poppins", Arial, sans-serif;
+}
+
+/* .email {
+	font-size: 42px;
+	font-family: "Pacifico", sans-serif;
+	color: rgb(222, 163, 60);
+	text-decoration: none;
+} */
+
+.email-phone {
+}
+
+.email {
+	text-decoration: none;
+	color: rgb(176, 131, 148);
+	font-size: 20px;
+	font-family: "Poppins", Arial, sans-serif;
+}
+
+.email:hover {
+	text-emphasis: none;
+	color: black;
+}
+
+.phone {
+	text-decoration: none;
+	color: rgb(176, 131, 148);
+	font-size: 20px;
+	font-family: "Poppins", Arial, sans-serif;
+}
+
+.phone:hover {
+	text-emphasis: none;
+	color: black;
+}
+
+/* .phone {
+	font-size: 42px;
+	font-family: "Pacifico", sans-serif;
+} */
+
+/* .contact-form .form-group {
 	margin-bottom: 20px;
 }
 .contact-form .form-control,
@@ -51,4 +96,4 @@ body {
 }
 .bs-example {
 	margin: 20px;
-}
+} */

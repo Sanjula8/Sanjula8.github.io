@@ -1,13 +1,14 @@
 import React from "react";
 
 import { Nav, Navbar } from "react-bootstrap";
-import "../Navbar/nav.css";
+// import "../Navbar/nav.css";
+import "../Navbar/othernav.css";
 
 function Navbar1() {
 	return (
 		<div>
 			<aside>
-				<Navbar bg="light" expand="lg" className="vertical-nav">
+				<Navbar expand="lg" className="vertical-nav">
 					<Navbar.Toggle aria-controls="basic-navbar-nav" />
 					<Navbar.Collapse id="basic-navbar-nav">
 						<Nav

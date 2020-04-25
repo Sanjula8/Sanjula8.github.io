@@ -1,0 +1,36 @@
+.portfolio-container {
+	margin-left: 300px;
+}
+
+.column {
+	float: left;
+	width: 33.33%;
+	padding: 5px;
+}
+
+img {
+	width: 30%;
+	height: auto;
+	padding: 10px;
+}
+
+.info {
+	display: inline-block;
+}
+
+.project-title {
+	font-weight: 500;
+	font-family: "Poppins", Arial, sans-serif;
+	font-size: 20px;
+}
+
+.info a {
+	text-decoration: none;
+	color: rgb(176, 131, 148);
+	font-family: "Poppins", Arial, sans-serif;
+	font-size: 15px;
+}
+
+.info a:hover {
+	color: black;
+}

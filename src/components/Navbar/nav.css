@@ -6,15 +6,15 @@
 	margin-right: 20px;
 }
 
-footer {
+.page-footer {
 	font-size: xx-small;
 	bottom: 0px;
 	position: absolute;
-	background-color: white;
+	text-decoration: none;
 }
 
 .nav-link :hover {
-	background-color: yellow;
+	background-color: rgb(176, 131, 148);
 }
 
 .nav-name {
@@ -26,4 +26,106 @@ footer {
 
 ul {
 	font-family: "Poppins", Arial, sans-serif;
+}
+
+#sidebar.active {
+	margin-left: -17rem;
+}
+
+#content.active {
+	width: 100%;
+	margin: 0;
+}
+
+.facebook,
+.linkedin,
+.instagram,
+.github {
+	color: black;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.period {
+	font-size: 60px;
+	line-height: 70px;
+	color: rgb(176, 131, 148);
+}
+
+.vertical-nav {
+	min-width: 17rem;
+	width: 17rem;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	left: 0;
+	box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+	transition: all 0.4s;
+}
+
+.page-content {
+	width: calc(100% - 17rem);
+	/* margin-left: 17rem; */
+	transition: all 0.4s;
+}
+
+/* for toggle behavior */
+
+#sidebar.active {
+	margin-left: -17rem;
+}
+
+#content.active {
+	width: 100%;
+	margin: 0;
+}
+
+/* @media (max-width: 768px) {
+	#sidebar {
+		margin-left: -17rem;
+	}
+	#sidebar.active {
+		margin-left: 0;
+	}
+	#content {
+		width: 100%;
+		margin: 0;
+	}
+	#content.active {
+		margin-left: 17rem;
+		width: calc(100% - 17rem);
+	}
+} */
+
+.separator {
+	margin: 3rem 0;
+	border-bottom: 1px dashed #fff;
+}
+
+.text-uppercase {
+	letter-spacing: 0.1em;
+}
+
+.text-gray {
+	color: #aaa;
+}
+
+.article-margin {
+	margin-left: 200px;
+}
+
+@media (max-width: 700px) {
+	.vertical-nav {
+		width: 5rem !important;
+		min-width: 5rem !important;
+	}
+	.nav-name,
+	p {
+		display: none;
+	}
+	.main-nav {
+		font-size: 10px;
+	}
 }

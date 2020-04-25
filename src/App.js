@@ -1,14 +1,14 @@
 import React from "react";
-// Import the BrowserRouter, Route and Link components
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import "font-awesome/css/font-awesome.min.css";
-import About from "./components/About";
-import Portfolio from "./components/Portfolio/Portfolio";
-// import Contact from "./components/Contact";
+import About from "./components/About/About";
+import Projects from "./components/Projects/Projects";
 import Navbar from "./components/Navbar/Nav";
+import Contact from "./components/Contact/Contact";
+// import Navbar1 from "./components/Navbar/OtherNav";
+import "font-awesome/css/font-awesome.min.css";
 import "./App.css";
 import "./styles/styles.css";
-import Contact from "./components/Contact/Contact";
+
 function App() {
 	return (
 		<div>
@@ -17,8 +17,8 @@ function App() {
 				<Route exact path="/">
 					<About />
 				</Route>
-				<Route exact path="/portfolio">
-					<Portfolio />
+				<Route exact path="/projects">
+					<Projects />
 				</Route>
 				<Route exact path="/contact">
 					<Contact />

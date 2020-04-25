@@ -6,10 +6,10 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "../Navbar/nav.css";
-import "../../styles/styles.css";
 import { Link } from "react-router-dom";
+import { Nav, Navbar } from "react-bootstrap";
 
-function Navbar() {
+function Aside() {
 	return (
 		<aside className="container">
 			<div
@@ -46,32 +46,20 @@ function Navbar() {
 							<div className="nav-link text-dark">About</div>
 						</Link>
 					</li>
-					{/* <li className="nav-item">
-						<a href="/" className="nav-link text-dark bg-light">
-							<i className="mr-3 text-primary fa-fw"></i>
-							About
-						</a>
-					</li> */}
 					<li className="nav-item">
 						<Link
-							to="/portfolio"
+							to="/projects"
 							className={
-								window.location.pathname === "/portfolio"
+								window.location.pathname === "/projects"
 									? "nav-link active"
 									: "nav-link"
 							}
 						>
 							<i className="mr-3 text-primary fa-fw"></i>
 
-							<div className="nav-link text-dark">Portfolio</div>
+							<div className="nav-link text-dark">Projects</div>
 						</Link>
 					</li>
-					{/* 
-					<li className="nav-item">
-						<a href="/portfolio" className="nav-link text-dark">
-							Portfolio
-						</a>
-					</li> */}
 					<li className="nav-item">
 						<Link
 							to="/contact"
@@ -85,11 +73,6 @@ function Navbar() {
 							<div className="nav-link text-dark">Contact</div>
 						</Link>
 					</li>
-					{/* <li className="nav-item">
-						<a href="/contact" className="nav-link text-dark">
-							Contact
-						</a>
-					</li> */}
 				</ul>
 				<ul className="mt-3 social">
 					<li className="ftco-animate">
@@ -111,7 +94,7 @@ function Navbar() {
 					<li className="ftco-animate">
 						<a href="https://www.linkedin.com/in/sanjula-mahathantila-0046a7a3/">
 							<FontAwesomeIcon
-								className="github"
+								className="linkedin"
 								icon={faLinkedin}
 							/>
 						</a>
@@ -125,4 +108,4 @@ function Navbar() {
 	);
 }
 
-export default Navbar;
+export default Aside;

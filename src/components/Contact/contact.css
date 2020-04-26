@@ -8,6 +8,7 @@
 	margin: 30px auto;
 }
 .contact-form h1 {
+	margin-top: -30px;
 	font-size: 42px;
 	font-family: "Poppins", Arial, sans-serif;
 	padding-bottom: 5px;
@@ -27,9 +28,10 @@
 	color: rgb(176, 131, 148);
 }
 .contact-form .form-control:focus {
-	color: rgb(0, 0, 0);
 	color: black;
+	/* outline: none !important; */
 }
+
 .contact-form .submit-button {
 	color: white;
 	background: rgb(176, 131, 148) !important;
@@ -44,6 +46,18 @@
 	border-radius: 20px;
 	border-color: rgb(176, 131, 148);
 	box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+input:focus {
+	outline: rgb(176, 131, 148) !important;
+	box-shadow: none !important;
+	border: rgb(176, 131, 148) !important;
+}
+
+textarea:focus {
+	outline: rgb(176, 131, 148) !important;
+	box-shadow: none !important;
+	border: rgb(176, 131, 148) !important;
 }
 
 .form-group input {
@@ -96,4 +110,22 @@
 .c-github:hover,
 .c-linkedin:hover {
 	color: rgb(176, 131, 148);
+}
+
+@media (max-width: 600px) {
+	.contact-container {
+		margin-left: 50px !important;
+	}
+	.email-info {
+		margin-left: -70px;
+		font-size: 20px;
+	}
+
+	.social-contact {
+		margin-left: 100px;
+		align-items: center;
+	}
+	.contact-form h1 {
+		margin-top: -90px;
+	}
 }

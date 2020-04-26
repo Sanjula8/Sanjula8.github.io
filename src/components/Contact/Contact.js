@@ -107,7 +107,7 @@ function Contact() {
 							</div>
 						</form>
 						<div className="col-sm-12 email-div">
-							<div>
+							<div className="email-info">
 								<span className="email-words">
 									Or, email me directly at:
 								</span>

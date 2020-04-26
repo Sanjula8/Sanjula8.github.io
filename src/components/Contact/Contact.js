@@ -1,46 +1,142 @@
-import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope, faMobile } from "@fortawesome/free-solid-svg-icons";
-import catselfie from "../../images/meandcat.jpg";
+import React, { useState } from "react";
+import axios from "axios";
 import "../Contact/contact.css";
+import {
+	faGithubAlt,
+	faInstagram,
+	faLinkedin,
+} from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope, faMobile } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Contact() {
+	const [serverState, setServerState] = useState({
+		submitting: false,
+		status: null,
+	});
+	const handleServerResponse = (ok, msg, form) => {
+		setServerState({
+			submitting: false,
+			status: { ok, msg },
+		});
+		if (ok) {
+			form.reset();
+		}
+	};
+	const handleOnSubmit = (e) => {
+		e.preventDefault();
+		const form = e.target;
+		setServerState({ submitting: true });
+		axios({
+			method: "post",
+			url: "https://formspree.io/xrgannqr",
+			data: new FormData(form),
+		})
+			.then((r) => {
+				handleServerResponse(true, "Thanks!", form);
+			})
+			.catch((r) => {
+				handleServerResponse(false, r.response.data.error, form);
+			});
+	};
 	return (
 		<div className="container contact-container">
 			<div className="row">
 				<div className="col-md-8 col-md-offset-2 m-auto">
 					<div className="contact-form">
 						<h1>Get in Touch</h1>
-					</div>
 
-					<img
-						className="catselfie"
-						src={catselfie}
-						alt="catselfie"
-					/>
-					<div>
-						<a
-							className="email col-md-8 col-md-offset-2 m-auto"
-							href="mailto:sanjula8.com"
-						>
-							<FontAwesomeIcon
-								className="instagram"
-								icon={faEnvelope}
-							/>
-							Email Me: sanjula8@gmail.com
-						</a>
-					</div>
-					<div>
-						<a
-							className="phone col-md-8 col-md-offset-2 m-auto"
-							href="tel:7123108673"
-						>
-							<FontAwesomeIcon
-								className="instagram"
-								icon={faMobile}
-							/>
-							Call Me: 712-310-8673
-						</a>
+						<form onSubmit={handleOnSubmit}>
+							<div className="row">
+								<div className="col-sm-12">
+									<div className="form-group">
+										<label
+											className="text-gray font-weight-bold text-uppercase px-3"
+											htmlFor="email"
+										>
+											Your Email
+										</label>
+										<input
+											type="email"
+											className="form-control"
+											id="email"
+											name="email"
+											required
+										/>
+									</div>
+								</div>
+							</div>
+
+							<div className="form-group">
+								<label
+									className="text-gray font-weight-bold text-uppercase px-3"
+									htmlFor="message"
+								>
+									Your Message
+								</label>
+								<textarea
+									className="form-control"
+									id="message"
+									name="message"
+									rows="5"
+									required
+								></textarea>
+							</div>
+							<div className="text-center">
+								<button
+									type="submit"
+									disabled={serverState.submitting}
+									className="btn submit-button"
+								>
+									<i className="fa fa-paper-plane"></i> Send
+								</button>
+								{serverState.status && (
+									<p
+										className={
+											!serverState.status.ok
+												? "errorMsg"
+												: ""
+										}
+									>
+										{serverState.status.msg}
+									</p>
+								)}
+							</div>
+						</form>
+						<div className="col-sm-12 email-div">
+							<div>
+								<span className="email-words">
+									Or, email me directly at:
+								</span>
+								<a className="email" href="mailto:sanjula8.com">
+									<FontAwesomeIcon
+										className="icon"
+										icon={faEnvelope}
+									/>
+									sanjula8@gmail.com
+								</a>
+							</div>
+						</div>
+						<div className="social-contact">
+							<a href="https://www.instagram.com/thesunmademeblind/">
+								<FontAwesomeIcon
+									className="c-instagram"
+									icon={faInstagram}
+								/>
+							</a>
+							<a href="https://github.com/Sanjula8">
+								<FontAwesomeIcon
+									className="c-github"
+									icon={faGithubAlt}
+								/>
+							</a>
+							<a href="https://www.linkedin.com/in/sanjula-mahathantila-0046a7a3/">
+								<FontAwesomeIcon
+									className="c-linkedin"
+									icon={faLinkedin}
+								/>
+							</a>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -49,49 +145,3 @@ function Contact() {
 }
 
 export default Contact;
-
-//	{/* <div className="row">
-{
-	/* <div className="col-md-8 col-md-offset-2 m-auto">
-<div>
-    <h2 className="email">Email</h2>
-    sanjula8@gmail.com
-</div>
-</div>
-</div>
-<div className="row">
-<div className="col-md-8">
-<h2 className="phone-number">Phone Number</h2>
-sanjula8@gmail.com
-</div>
-</div> */
-}
-// </div>
-// <div className="row">
-// <div className="col-md-4 col-md-offset-2 m-auto justify-content-around">
-// <div className="row">
-// <h2 className="email">Email</h2>
-// </div>
-// <div className="row">sanjula8@gmail.com </div>
-// </div>
-// <div className="col-md-4 col-md-offset-2 m-auto d-flex justify-content-around">
-// <h2 className="phone">Phone</h2>
-// </div> */}
-{
-	/* <div className="col-md-4 col-md-offset-2 m-auto d-flex justify-content-around">
-<h2 className="email">Phone</h2>
-</div> */
-}
-// </div>
-// <div className="row mx-auto">
-// <div className="col-md-4 col-md-offset-2 m-auto d-flex justify-content-around">
-// sanjula8@gmail.com
-// </div>
-// <div className="col-md-4 col-md-offset-2 m-auto d-flex justify-content-around">
-// phone thingy
-// </div>
-{
-	/* <div className="col-md-4 col-md-offset-2 m-auto d-flex justify-content-around">
-phone thingy
-</div> */
-}

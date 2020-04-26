@@ -1,4 +1,4 @@
-.portfolio-container {
+.project-container {
 	margin-left: 300px;
 }
 
@@ -33,4 +33,23 @@ img {
 
 .info a:hover {
 	color: black;
+}
+
+@media (max-width: 450px) {
+	.project-container {
+		margin-left: 100px !important;
+	}
+	img {
+		width: 40%;
+	}
+	.project-title {
+		padding-top: 10px;
+		font-size: 15px;
+	}
+}
+
+@media (max-width: 700px) {
+	.project-container {
+		margin-left: 100px;
+	}
 }

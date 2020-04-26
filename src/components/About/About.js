@@ -1,7 +1,7 @@
 import React from "react";
 
 // import image from "../../images/meandcat.jpg";
-import image from "../../images/meandcat.jpg";
+import image from "../../images/yellow-selfie.JPG";
 // import resume from "../../resume/smaharesume.pdf";
 import resume from "../../resume/smaharesume.pdf";
 // import "../styles/styles.css";
@@ -12,14 +12,9 @@ function About() {
 		<div className="container about-container">
 			<div src={image} alt="selfie"></div>
 			<div className="js-fullheight d-flex justify-content-center align-items-center article-margin">
-				<div className="col-md-8 text text-center">
+				<section className="col-md-8 text text-center">
 					<div className="navimage">
-						<img
-							src={image}
-							alt="..."
-							width="65"
-							className="mr-3 img-thumbnail shadow-sm "
-						/>
+						<img src={image} alt="..." />
 					</div>
 					<div className="desc scrollbar scrollbar-primary">
 						<h2 className="subheading">Hello I'm</h2>
@@ -35,12 +30,6 @@ function About() {
 							delegation, processes, and technology with
 							integration of different cultures and backgrounds.
 						</p>
-						<div className="skills">Skills</div>
-						<div>
-							Git | JavaScript | Node.js | React.js | CSS | HTML5
-							ES6 | Express.js | AJAX MERN Stack | MongoDB |
-							Mongoose MySQL | Sequelize
-						</div>
 						<div className="columns download">
 							<p>
 								<a
@@ -52,8 +41,14 @@ function About() {
 								</a>
 							</p>
 						</div>
+						<div className="skills">Skills</div>
+						<div>
+							Git | JavaScript | Node.js | React.js | CSS | HTML5
+							ES6 | Express.js | AJAX MERN Stack | MongoDB |
+							Mongoose MySQL | Sequelize
+						</div>
 					</div>
-				</div>
+				</section>
 			</div>
 		</div>
 	);

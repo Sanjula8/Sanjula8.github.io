@@ -8,7 +8,7 @@ import whisket from "../../images/Whisket.png";
 
 function Projects() {
 	return (
-		<div className="container portfolio-container">
+		<div className="container project-container">
 			<div className="row">
 				<div className="">
 					<img src={charityhub} alt="CharityHub" />

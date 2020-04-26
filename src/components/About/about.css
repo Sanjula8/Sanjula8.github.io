@@ -29,11 +29,12 @@ h1 {
 }
 
 .resume-button {
-	background-color: rgb(176, 131, 148);
+	background-color: rgb(176, 131, 148) !important;
 	border: none;
+	border-radius: 20px;
 }
 .resume-button:hover {
-	color: rgb(176, 131, 148);
+	color: black !important;
 }
 
 .skills {
@@ -44,34 +45,65 @@ h1 {
 
 .navimage {
 	width: 50%;
-	height: 230px;
+	height: 220px;
 	margin-left: 25%;
 	margin-bottom: 20px;
-	border-radius: 50%;
+	/* border-radius: 50%; */
 	position: relative;
 	overflow: hidden;
 }
 .navimage img {
 	min-width: 100%;
 	min-height: 100%;
-	width: auto;
+	border-radius: 30%;
+	/* width: auto;
 	height: auto;
 	position: absolute;
 	left: 50%;
-	top: 50%;
-	-webkit-transform: translate(-50%, -50%);
+	top: 50%; */
+	/* -webkit-transform: translate(-50%, -50%);
 	-moz-transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%); */
+}
+
+@media (max-width: 450px) {
+	.about-container {
+		margin-left: -140px !important;
+	}
+	.navimage {
+		width: 90px !important;
+		height: 140px !important;
+		margin-left: 40px !important;
+	}
+	h1 {
+		font-size: 30px !important;
+		font-weight: 600;
+	}
 }
 
 @media (max-width: 700px) {
 	.about-container {
-		margin-left: -100px;
+		margin-left: -150px;
 	}
-	/* .navimage img {
-		width: 50px !important;
-		height: 50px !important;
-		border-radius: 50px;
-	} */
+	.navimage {
+		width: 50% !important;
+		height: 150px !important;
+		margin-left: 70px !important;
+	}
+}
+
+/* @media (max-width: 1000px) {
+	.navimage {
+		margin-left: 140px !important;
+	}
+} */
+
+@media (max-width: 1500px) {
+	.navimage {
+		width: 200px !important;
+		height: 250px !important;
+		margin-left: 200px;
+		border-radius: 0%;
+	}
 }

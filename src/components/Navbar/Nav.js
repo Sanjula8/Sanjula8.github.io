@@ -7,7 +7,6 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "../Navbar/nav.css";
 import { Link } from "react-router-dom";
-import { Nav, Navbar } from "react-bootstrap";
 
 function Aside() {
 	return (
@@ -22,13 +21,13 @@ function Aside() {
 							<h4 className="m-0 nav-name">
 								sanjula<span className="period">.</span>
 							</h4>
-							<p className="font-weight-light text-muted mb-0">
-								Full Stack Developer{" "}
+							<p className="font-weight-light text-muted mb-0 title">
+								Full Stack Developer
 							</p>
 						</div>
 					</div>
 				</div>
-				<p className="text-gray font-weight-bold text-uppercase px-3 small pb-4 mb-0">
+				<p className="text-gray font-weight-bold text-uppercase px-3 small pb-4 mb-0 hello">
 					Hello!
 				</p>
 				<ul className="nav flex-column bg-white mb-0 main-nav">

@@ -1,39 +1,47 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "acd311d6fa871cb730013bdf16ce6a0c",
+    "revision": "80de1eb820e9bf712489ad51850a61fd",
     "url": "/index.html"
   },
   {
-    "revision": "300a6e13418096391e8b",
+    "revision": "b3974c26b037188a1e0f",
     "url": "/static/css/2.e6f51e71.chunk.css"
   },
   {
-    "revision": "ab9465790243c07dc3a1",
-    "url": "/static/css/main.7f73a098.chunk.css"
+    "revision": "2c06df9e83da372042ec",
+    "url": "/static/css/main.ad5d63ec.chunk.css"
   },
   {
-    "revision": "300a6e13418096391e8b",
-    "url": "/static/js/2.d07902e6.chunk.js"
+    "revision": "b3974c26b037188a1e0f",
+    "url": "/static/js/2.b49d2afe.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.d07902e6.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.b49d2afe.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ab9465790243c07dc3a1",
-    "url": "/static/js/main.11e49969.chunk.js"
+    "revision": "2c06df9e83da372042ec",
+    "url": "/static/js/main.50233785.chunk.js"
   },
   {
     "revision": "79135c9990e91683fd29",
     "url": "/static/js/runtime-main.b22e8f95.js"
   },
   {
-    "revision": "556ce5ff250aaf28834ea906d5ea5c89",
-    "url": "/static/media/bg_1.556ce5ff.jpg"
+    "revision": "2e22ad60a560b83a6c33eb1b2d544f25",
+    "url": "/static/media/CharityHub.2e22ad60.png"
   },
   {
-    "revision": "b5201b3f0dbff0e78675b386638a44a8",
-    "url": "/static/media/bg_2.b5201b3f.jpg"
+    "revision": "6aa5ef2de3faec12e9990394f072fcd6",
+    "url": "/static/media/Stocks.6aa5ef2d.png"
+  },
+  {
+    "revision": "e7ffda12cc2bf8a5a1ff879b70a4ee4a",
+    "url": "/static/media/Whisket.e7ffda12.png"
+  },
+  {
+    "revision": "556ce5ff250aaf28834ea906d5ea5c89",
+    "url": "/static/media/bg_1.556ce5ff.jpg"
   },
   {
     "revision": "674f50d287a8c48dc19ba404d20fe713",
@@ -56,19 +64,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/fontawesome-webfont.fee66e71.woff"
   },
   {
-    "revision": "0129188923d9a8b857fb44f07442b8b9",
-    "url": "/static/media/image_4.01291889.jpg"
-  },
-  {
-    "revision": "38aca0f2aff66cb1b6f1c536267e4404",
-    "url": "/static/media/image_9.38aca0f2.jpg"
-  },
-  {
-    "revision": "776761c55606f2b025f7c9f940483060",
-    "url": "/static/media/meandcat.776761c5.jpg"
-  },
-  {
     "revision": "9f485810e7ac15e840b71f5b1976d2b3",
     "url": "/static/media/smaharesume.9f485810.pdf"
+  },
+  {
+    "revision": "1a59545568289f0fd9ecd9e5bee1af5e",
+    "url": "/static/media/yellow-selfie.1a595455.JPG"
   }
 ]);

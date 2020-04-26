@@ -1,32 +1,32 @@
 {
   "files": {
-    "main.css": "/static/css/main.7f73a098.chunk.css",
-    "main.js": "/static/js/main.11e49969.chunk.js",
-    "main.js.map": "/static/js/main.11e49969.chunk.js.map",
+    "main.css": "/static/css/main.ad5d63ec.chunk.css",
+    "main.js": "/static/js/main.50233785.chunk.js",
+    "main.js.map": "/static/js/main.50233785.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b22e8f95.js",
     "runtime-main.js.map": "/static/js/runtime-main.b22e8f95.js.map",
     "static/css/2.e6f51e71.chunk.css": "/static/css/2.e6f51e71.chunk.css",
-    "static/js/2.d07902e6.chunk.js": "/static/js/2.d07902e6.chunk.js",
-    "static/js/2.d07902e6.chunk.js.map": "/static/js/2.d07902e6.chunk.js.map",
+    "static/js/2.b49d2afe.chunk.js": "/static/js/2.b49d2afe.chunk.js",
+    "static/js/2.b49d2afe.chunk.js.map": "/static/js/2.b49d2afe.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.49f2d5749e5fd98fc5efeb6b01de7ab3.js": "/precache-manifest.49f2d5749e5fd98fc5efeb6b01de7ab3.js",
+    "precache-manifest.65939f3726cdd1ff15fa25e9ddb21bf3.js": "/precache-manifest.65939f3726cdd1ff15fa25e9ddb21bf3.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.e6f51e71.chunk.css.map": "/static/css/2.e6f51e71.chunk.css.map",
-    "static/css/main.7f73a098.chunk.css.map": "/static/css/main.7f73a098.chunk.css.map",
-    "static/js/2.d07902e6.chunk.js.LICENSE.txt": "/static/js/2.d07902e6.chunk.js.LICENSE.txt",
+    "static/css/main.ad5d63ec.chunk.css.map": "/static/css/main.ad5d63ec.chunk.css.map",
+    "static/js/2.b49d2afe.chunk.js.LICENSE.txt": "/static/js/2.b49d2afe.chunk.js.LICENSE.txt",
+    "static/media/CharityHub.png": "/static/media/CharityHub.2e22ad60.png",
+    "static/media/Stocks.png": "/static/media/Stocks.6aa5ef2d.png",
+    "static/media/Whisket.png": "/static/media/Whisket.e7ffda12.png",
     "static/media/styles.css": "/static/media/bg_1.556ce5ff.jpg",
-    "static/media/bg_2.jpg": "/static/media/bg_2.b5201b3f.jpg",
     "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.fee66e71.woff",
-    "static/media/image_4.jpg": "/static/media/image_4.01291889.jpg",
-    "static/media/image_9.jpg": "/static/media/image_9.38aca0f2.jpg",
-    "static/media/meandcat.jpg": "/static/media/meandcat.776761c5.jpg",
-    "static/media/smaharesume.pdf": "/static/media/smaharesume.9f485810.pdf"
+    "static/media/smaharesume.pdf": "/static/media/smaharesume.9f485810.pdf",
+    "static/media/yellow-selfie.JPG": "/static/media/yellow-selfie.1a595455.JPG"
   },
   "entrypoints": [
     "static/js/runtime-main.b22e8f95.js",
     "static/css/2.e6f51e71.chunk.css",
-    "static/js/2.d07902e6.chunk.js",
-    "static/css/main.7f73a098.chunk.css",
-    "static/js/main.11e49969.chunk.js"
+    "static/js/2.b49d2afe.chunk.js",
+    "static/css/main.ad5d63ec.chunk.css",
+    "static/js/main.50233785.chunk.js"
   ]
 }

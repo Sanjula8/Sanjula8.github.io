@@ -46,6 +46,12 @@ ul {
 	color: black;
 }
 
+.instagram:hover,
+.github:hover,
+.linkedin:hover {
+	color: rgb(176, 131, 148);
+}
+
 ul {
 	list-style-type: none;
 }

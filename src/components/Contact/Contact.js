@@ -44,7 +44,10 @@ function Contact() {
 			<div className="row">
 				<div className="col-md-8 col-md-offset-2 m-auto">
 					<div className="contact-form">
-						<h1>Get in Touch</h1>
+						<h1>
+							Get in Touch
+							<span className="contact-period">.</span>
+						</h1>
 
 						<form onSubmit={handleOnSubmit}>
 							<div className="row">

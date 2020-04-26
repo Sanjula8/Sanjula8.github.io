@@ -9,9 +9,15 @@
 }
 .contact-form h1 {
 	font-size: 42px;
-	font-family: "Pacifico", sans-serif;
+	font-family: "Poppins", Arial, sans-serif;
 	padding-bottom: 5px;
 	text-align: center;
+	letter-spacing: -1px;
+}
+
+.contact-period {
+	font-size: 70px;
+	color: rgb(176, 131, 148);
 }
 .contact-form .form-group {
 	margin-bottom: 20px;

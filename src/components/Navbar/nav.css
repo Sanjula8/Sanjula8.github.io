@@ -105,10 +105,10 @@ ul {
 	margin-left: 200px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 600px) {
 	.vertical-nav {
-		width: 5rem !important;
-		min-width: 5rem !important;
+		width: 5rem;
+		min-width: 5rem;
 	}
 	.nav-name {
 		/* display: none; */
@@ -126,18 +126,128 @@ ul {
 	}
 
 	.page-footer {
-		font-size: xx-small;
+		font-size: 6px;
 		bottom: 0px;
 		position: fixed;
 		text-decoration: none;
-		background-color: rgb(176, 131, 148);
+		margin-left: -45px;
 	}
 
 	.nav-link {
-		margin-left: -10px !important;
+		margin-left: -10px;
 	}
 
 	.social {
-		margin-left: -20px !important;
+		margin-left: -20px;
+	}
+}
+
+@media (min-width: 600px) {
+	.vertical-nav {
+		width: 5rem;
+		min-width: 5rem;
+	}
+	.nav-name {
+		/* display: none; */
+		font-size: 10px;
+	}
+	.title {
+		font-size: 8px;
+	}
+	.hello {
+		font-size: 8px;
+		margin-left: -10px;
+	}
+	.main-nav {
+		font-size: 10px;
+	}
+
+	.page-footer {
+		font-size: 6px;
+		bottom: 0px;
+		position: fixed;
+		text-decoration: none;
+		margin-left: -45px;
+	}
+
+	.nav-link {
+		margin-left: -10px;
+	}
+
+	.social {
+		margin-left: -20px;
+	}
+}
+
+@media (min-width: 768px) {
+	.vertical-nav {
+		min-width: 17rem;
+		width: 17rem;
+		height: 100vh;
+		position: fixed;
+		top: 0;
+		left: 0;
+		box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+		transition: all 0.4s;
+	}
+	.nav-name {
+		font-weight: 900;
+		font-size: 34px;
+	}
+	.nav-link {
+		margin: 10px;
+	}
+	.title {
+		font-size: 15px;
+	}
+	.main-nav {
+		font-size: 15px;
+	}
+}
+
+@media (min-width: 992px) {
+	.vertical-nav {
+		min-width: 17rem;
+		width: 17rem;
+		height: 100vh;
+		position: fixed;
+		top: 0;
+		left: 0;
+		box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+		transition: all 0.4s;
+	}
+	.main-nav {
+		font-size: 15px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.vertical-nav {
+		min-width: 17rem;
+		width: 17rem;
+		height: 100vh;
+		position: fixed;
+		top: 0;
+		left: 0;
+		box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+		transition: all 0.4s;
+	}
+	.main-nav {
+		font-size: 30px;
+	}
+	.hello {
+		font-size: 20px;
+	}
+	.social {
+		font-size: 30px;
+	}
+	.nav-name {
+		font-size: 60px;
+	}
+	.period {
+		font-size: 100px;
+	}
+	.title {
+		font-size: 20px;
 	}
 }

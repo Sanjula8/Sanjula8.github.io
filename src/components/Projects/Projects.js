@@ -1,5 +1,6 @@
 import React from "react";
 import "./projects.css";
+import "../../styles/styles.css";
 import { faGithubAlt } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import charityhub from "../../images/CharityHub.png";

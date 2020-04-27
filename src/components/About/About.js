@@ -16,36 +16,39 @@ function About() {
 					<div className="navimage">
 						<img src={image} alt="..." />
 					</div>
-					<div className="desc scrollbar scrollbar-primary">
-						<h2 className="subheading">Hello I'm</h2>
-						<h1 className="mb-4">Sanjula Mahathantila</h1>
-						<p className="mb-4">
-							Full Stack Developer with certification from
-							Southern Methodist University including skills in
-							JavaScript, React, Node.js, responsive development,
-							and more. Bachelor’s degree in Neuroscience with
-							minors in Anthropology and Psychology from the
-							University of Nebraska – Omaha. Strengths in
-							effective planning and communication with skills in
-							delegation, processes, and technology with
-							integration of different cultures and backgrounds.
-						</p>
-						<div className="columns download">
-							<p>
-								<a
-									href={resume}
-									className="resume-button btn btn-dark"
-								>
-									<i className="fa fa-download"></i>Download
-									Resume
-								</a>
+					<div className="desc">
+						<div className="scrollbar scrollbar-primary">
+							<h2 className="subheading">Hello I'm</h2>
+							<h1 className="mb-4">Sanjula Mahathantila</h1>
+							<p className="mb-4 paragraph">
+								Full Stack Developer with certification from
+								Southern Methodist University including skills
+								in JavaScript, React, Node.js, responsive
+								development, and more. Bachelor’s degree in
+								Neuroscience with minors in Anthropology and
+								Psychology from the University of Nebraska –
+								Omaha. Strengths in effective planning and
+								communication with skills in delegation,
+								processes, and technology with integration of
+								different cultures and backgrounds.
 							</p>
-						</div>
-						<div className="skills">Skills</div>
-						<div>
-							Git | JavaScript | Node.js | React.js | CSS | HTML5
-							ES6 | Express.js | AJAX MERN Stack | MongoDB |
-							Mongoose MySQL | Sequelize
+							<div className="columns download">
+								<p>
+									<a
+										href={resume}
+										className="resume-button btn btn-dark"
+									>
+										<i className="fa fa-download"></i>
+										Download Resume
+									</a>
+								</p>
+							</div>
+							<div className="skills">Skills</div>
+							<div>
+								Git | JavaScript | Node.js | React.js | CSS |
+								HTML5 ES6 | Express.js | AJAX MERN Stack |
+								MongoDB | Mongoose MySQL | Sequelize
+							</div>
 						</div>
 					</div>
 				</section>

@@ -67,43 +67,103 @@ h1 {
 	transform: translate(-50%, -50%); */
 }
 
-@media (max-width: 450px) {
+@media (max-width: 600px) {
 	.about-container {
-		margin-left: -140px !important;
+		margin-left: -140px;
 	}
 	.navimage {
-		width: 90px !important;
-		height: 140px !important;
-		margin-left: 40px !important;
+		width: 120px;
+		height: 170px;
+		margin-left: 30px;
 	}
 	h1 {
-		font-size: 30px !important;
-		font-weight: 600;
+		font-size: 20px;
+		font-weight: 700;
+	}
+	.scrollbar {
+		margin-left: 20px;
+		height: 350px;
+	}
+	.paragraph {
+		font-size: 12px;
+		font-weight: 300;
 	}
 }
 
-@media (max-width: 700px) {
+@media (min-width: 600px) {
 	.about-container {
-		margin-left: -150px;
+		margin-left: -120px;
 	}
 	.navimage {
-		width: 50% !important;
-		height: 150px !important;
-		margin-left: 70px !important;
+		width: 140px;
+		height: 170px;
+		margin-left: 80px;
+	}
+	h1 {
+		font-size: 20px;
+		font-weight: 700;
+	}
+	.scrollbar {
+		margin-left: 20px;
+		height: 350px;
+	}
+	.paragraph {
+		font-size: 12px;
+		font-weight: 300;
 	}
 }
 
-/* @media (max-width: 1000px) {
-	.navimage {
-		margin-left: 140px !important;
+@media (min-width: 768px) {
+	.about-container {
+		margin-left: 50px;
 	}
-} */
+	.subheading {
+		font-size: 30px;
+		color: lighten(rgb(0, 0, 0.5));
+		font-weight: 300;
+	}
 
-@media (max-width: 1500px) {
+	h1 {
+		letter-spacing: 1px;
+		font-weight: 900;
+		font-size: 40px;
+	}
+	.paragraph {
+		font-size: 15px;
+	}
+	.scrollbar {
+		height: 500px;
+	}
+}
+
+@media (min-width: 992px) {
+	.about-container {
+		margin-left: 140px;
+	}
+	.subheading {
+		font-size: 24px;
+		color: lighten(rgb(0, 0, 0.5));
+		font-weight: 300;
+	}
+
+	h1 {
+		letter-spacing: 1px;
+		font-weight: 900;
+		font-size: 34px;
+	}
+	.paragraph {
+		font-size: 15px;
+	}
 	.navimage {
-		width: 200px !important;
-		height: 250px !important;
-		margin-left: 200px;
+		margin-left: 165px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.navimage {
+		width: 200px;
+		height: 250px;
 		border-radius: 0%;
+		margin-left: 190px;
 	}
 }

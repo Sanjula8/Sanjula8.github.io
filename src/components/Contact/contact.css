@@ -1,5 +1,5 @@
 .contact-container {
-	margin-left: 100px !important;
+	margin-left: 100px;
 	color: #000;
 	font-family: "Roboto", sans-serif;
 }
@@ -69,7 +69,7 @@ textarea:focus {
 .email {
 	text-decoration: none;
 	color: rgb(176, 131, 148);
-	font-size: 20px !important;
+	font-size: 20px;
 	font-family: "Poppins", Arial, sans-serif;
 }
 
@@ -114,18 +114,141 @@ textarea:focus {
 
 @media (max-width: 600px) {
 	.contact-container {
-		margin-left: 50px !important;
+		margin-left: 50px;
 	}
 	.email-info {
 		margin-left: -70px;
 		font-size: 20px;
 	}
+	.email-words {
+		background-color: rgba(75, 75, 75, 0.379);
+	}
+	.email {
+		color: black;
+		background-color: rgba(75, 75, 75, 0.379);
+	}
+	.email:hover {
+		color: white;
+	}
 
+	.icon:hover {
+		color: white;
+	}
+	.social-contact {
+		margin-left: 100px;
+		align-items: center;
+	}
+	.contact-form h1 {
+		margin-top: -80px;
+		letter-spacing: -2px;
+		font-size: 40px;
+	}
+}
+
+@media (min-width: 600px) {
+	.contact-container {
+		margin-left: 50px;
+	}
 	.social-contact {
 		margin-left: 100px;
 		align-items: center;
 	}
 	.contact-form h1 {
 		margin-top: -90px;
+	}
+	.email-info {
+		margin-left: -70px;
+		font-size: 20px;
+	}
+	.email-words {
+		background-color: rgba(75, 75, 75, 0.379);
+	}
+	.email {
+		color: black;
+		background-color: rgba(75, 75, 75, 0.379);
+	}
+	.email:hover {
+		color: white;
+	}
+
+	.icon:hover {
+		color: white;
+	}
+}
+
+@media (min-width: 768px) {
+	.contact-container {
+		margin-left: 200px;
+	}
+	.contact-form {
+		padding: 50px;
+		margin: 30px auto;
+	}
+	.contact-form h1 {
+		margin-top: -80px;
+		font-size: 42px;
+		font-family: "Poppins", Arial, sans-serif;
+		padding-bottom: 5px;
+		text-align: center;
+		letter-spacing: -1px;
+	}
+	.email-words {
+		font-size: 35px;
+		font-weight: 500;
+		background-color: transparent;
+	}
+	.email {
+		font-size: 30px;
+		background-color: transparent;
+		color: rgb(176, 131, 148);
+		font-weight: 600;
+	}
+
+	.icon {
+		color: black;
+	}
+	.icon:hover {
+		color: rgb(176, 131, 148);
+	}
+	.email:hover {
+		color: black;
+	}
+	.social-contact {
+		font-size: 45px;
+	}
+}
+
+@media (min-width: 992px) {
+	.contact-container {
+		margin-left: 240px;
+	}
+	.email-info {
+		font-size: 20px;
+	}
+	.email {
+		font-weight: normal;
+		font-size: 40px;
+	}
+	.email-words {
+		font-weight: normal;
+	}
+	.social-contact {
+		margin-left: 200px;
+	}
+	.contact-form h1 {
+		font-size: 70px;
+		margin-top: 10px;
+	}
+	.contact-period {
+		font-size: 140px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.email-words {
+		font-size: 50px;
+	}
+	.email {
+		font-size: 50px;
 	}
 }

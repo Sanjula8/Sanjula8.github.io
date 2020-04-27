@@ -4,6 +4,7 @@
 
 .main-nav {
 	margin-right: 20px;
+	font-weight: 400;
 }
 
 .page-footer {
@@ -111,7 +112,6 @@ ul {
 		min-width: 5rem;
 	}
 	.nav-name {
-		/* display: none; */
 		font-size: 10px;
 	}
 	.title {
@@ -148,7 +148,6 @@ ul {
 		min-width: 5rem;
 	}
 	.nav-name {
-		/* display: none; */
 		font-size: 10px;
 	}
 	.title {

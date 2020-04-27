@@ -46,6 +46,7 @@
 	border-radius: 20px;
 	border-color: rgb(176, 131, 148);
 	box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+	resize: none;
 }
 
 input:focus {
@@ -88,6 +89,11 @@ textarea:focus {
 .email-div {
 	padding-top: 4px;
 	margin-left: 70px;
+	width: auto;
+}
+
+.email-info {
+	background-color: rgba(255, 255, 255, 0.502);
 }
 
 .email-words {
@@ -120,19 +126,15 @@ textarea:focus {
 		margin-left: -70px;
 		font-size: 20px;
 	}
-	.email-words {
-		background-color: rgba(75, 75, 75, 0.379);
-	}
 	.email {
-		color: black;
-		background-color: rgba(75, 75, 75, 0.379);
+		color: rgb(176, 131, 148);
 	}
 	.email:hover {
-		color: white;
+		color: black;
 	}
 
 	.icon:hover {
-		color: white;
+		color: rgb(176, 131, 148);
 	}
 	.social-contact {
 		margin-left: 100px;
@@ -160,19 +162,14 @@ textarea:focus {
 		margin-left: -70px;
 		font-size: 20px;
 	}
-	.email-words {
-		background-color: rgba(75, 75, 75, 0.379);
-	}
 	.email {
-		color: black;
-		background-color: rgba(75, 75, 75, 0.379);
+		color: rgb(176, 131, 148);
 	}
 	.email:hover {
-		color: white;
+		color: black;
 	}
-
 	.icon:hover {
-		color: white;
+		color: black;
 	}
 }
 
@@ -194,14 +191,14 @@ textarea:focus {
 	}
 	.email-words {
 		font-size: 35px;
-		font-weight: 500;
+		font-weight: 400;
 		background-color: transparent;
 	}
 	.email {
 		font-size: 30px;
 		background-color: transparent;
 		color: rgb(176, 131, 148);
-		font-weight: 600;
+		font-weight: 500;
 	}
 
 	.icon {
@@ -214,7 +211,7 @@ textarea:focus {
 		color: black;
 	}
 	.social-contact {
-		font-size: 45px;
+		font-size: 40px;
 	}
 }
 
@@ -222,15 +219,13 @@ textarea:focus {
 	.contact-container {
 		margin-left: 140px;
 	}
-	.email-info {
-		font-size: 20px;
-	}
 	.email {
 		font-weight: normal;
-		font-size: 20px;
+		font-size: 30px;
 	}
 	.email-words {
 		font-weight: normal;
+		font-size: 30px;
 	}
 	.social-contact {
 		margin-left: 200px;
@@ -245,10 +240,14 @@ textarea:focus {
 }
 
 @media (min-width: 1200px) {
+	.email-info {
+		margin-left: auto;
+		width: auto;
+	}
 	.email-words {
-		font-size: 50px;
+		font-size: 30px;
 	}
 	.email {
-		font-size: 50px;
+		font-size: 30px;
 	}
 }

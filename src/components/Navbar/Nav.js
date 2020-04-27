@@ -74,14 +74,14 @@ function Aside() {
 					</li>
 				</ul>
 				<ul className="mt-3 social">
-					<li className="ftco-animate">
+					{/* <li className="ftco-animate">
 						<a href="https://www.instagram.com/thesunmademeblind/">
 							<FontAwesomeIcon
 								className="instagram"
 								icon={faInstagram}
 							/>
 						</a>
-					</li>
+					</li> */}
 					<li className="ftco-animate">
 						<a href="https://github.com/Sanjula8">
 							<FontAwesomeIcon

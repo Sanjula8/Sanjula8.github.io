@@ -43,12 +43,12 @@ function About() {
 									</a>
 								</p>
 							</div>
-							<div className="skills-title">Skills</div>
+							{/* <div className="skills-title">Skills</div>
 							<div className="skills">
 								Git | JavaScript | Node.js | React.js | CSS |
 								HTML5 ES6 | Express.js | AJAX MERN Stack |
 								MongoDB | Mongoose MySQL | Sequelize
-							</div>
+							</div> */}
 						</div>
 					</div>
 				</section>

@@ -121,12 +121,12 @@ function Contact() {
 							</div>
 						</div>
 						<div className="social-contact">
-							<a href="https://www.instagram.com/thesunmademeblind/">
+							{/* <a href="https://www.instagram.com/thesunmademeblind/">
 								<FontAwesomeIcon
 									className="c-instagram"
 									icon={faInstagram}
 								/>
-							</a>
+							</a> */}
 							<a href="https://github.com/Sanjula8">
 								<FontAwesomeIcon
 									className="c-github"

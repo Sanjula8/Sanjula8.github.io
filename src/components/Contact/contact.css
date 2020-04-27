@@ -220,14 +220,14 @@ textarea:focus {
 
 @media (min-width: 992px) {
 	.contact-container {
-		margin-left: 240px;
+		margin-left: 140px;
 	}
 	.email-info {
 		font-size: 20px;
 	}
 	.email {
 		font-weight: normal;
-		font-size: 40px;
+		font-size: 20px;
 	}
 	.email-words {
 		font-weight: normal;
@@ -237,7 +237,7 @@ textarea:focus {
 	}
 	.contact-form h1 {
 		font-size: 70px;
-		margin-top: 10px;
+		margin-top: -90px;
 	}
 	.contact-period {
 		font-size: 140px;

@@ -217,6 +217,12 @@ ul {
 		transition: all 0.4s;
 	}
 	.main-nav {
+		font-size: 20px;
+	}
+	.social {
+		font-size: 20px;
+	}
+	.hello {
 		font-size: 15px;
 	}
 }
@@ -233,13 +239,17 @@ ul {
 		transition: all 0.4s;
 	}
 	.main-nav {
-		font-size: 30px;
+		font-size: 15px;
+	}
+	.main-nav li {
+		font-size: 20px;
+		margin-top: -10px;
 	}
 	.hello {
 		font-size: 20px;
 	}
 	.social {
-		font-size: 30px;
+		font-size: 15px;
 	}
 	.nav-name {
 		font-size: 60px;

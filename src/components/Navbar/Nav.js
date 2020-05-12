@@ -71,7 +71,11 @@ function Aside() {
 				</ul>
 				<ul className="mt-3 social">
 					<li className="ftco-animate">
-						<a href="https://github.com/Sanjula8">
+						<a
+							rel="noreferrer noopener"
+							target="_blank"
+							href="https://github.com/Sanjula8"
+						>
 							<FontAwesomeIcon
 								className="github"
 								icon={faGithubAlt}
@@ -79,7 +83,11 @@ function Aside() {
 						</a>
 					</li>
 					<li className="ftco-animate">
-						<a href="https://www.linkedin.com/in/sanjula-mahathantila-0046a7a3/">
+						<a
+							rel="noreferrer noopener"
+							target="_blank"
+							href="https://www.linkedin.com/in/sanjula-mahathantila-0046a7a3/"
+						>
 							<FontAwesomeIcon
 								className="linkedin"
 								icon={faLinkedin}

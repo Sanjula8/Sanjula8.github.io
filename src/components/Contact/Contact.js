@@ -117,13 +117,21 @@ function Contact() {
 							</div>
 						</div>
 						<div className="social-contact">
-							<a href="https://github.com/Sanjula8">
+							<a
+								rel="noreferrer noopener"
+								target="_blank"
+								href="https://github.com/Sanjula8"
+							>
 								<FontAwesomeIcon
 									className="c-github"
 									icon={faGithubAlt}
 								/>
 							</a>
-							<a href="https://www.linkedin.com/in/sanjula-mahathantila-0046a7a3/">
+							<a
+								rel="noreferrer noopener"
+								target="_blank"
+								href="https://www.linkedin.com/in/sanjula-mahathantila-0046a7a3/"
+							>
 								<FontAwesomeIcon
 									className="c-linkedin"
 									icon={faLinkedin}

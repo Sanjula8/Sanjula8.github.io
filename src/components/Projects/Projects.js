@@ -16,12 +16,22 @@ function Projects() {
 					<div className="info">
 						<div className="project-title">Charity Hub</div>
 						<div>
-							<a href="https://afternoon-reaches-31810.herokuapp.com/">
+							<a
+								style={{ display: "table-cell" }}
+								href="https://afternoon-reaches-31810.herokuapp.com/"
+								rel="noreferrer noopener"
+								target="_blank"
+							>
 								Deployment
 							</a>
 						</div>
 						<div>
-							<a href="https://github.com/Sanjula8/Charity">
+							<a
+								style={{ display: "table-cell" }}
+								href="https://github.com/Sanjula8/Charity"
+								rel="noreferrer noopener"
+								target="_blank"
+							>
 								Source Code
 							</a>
 						</div>
@@ -32,12 +42,22 @@ function Projects() {
 					<div className="info">
 						<div className="project-title">Whisket</div>
 						<div>
-							<a href="https://quiet-badlands-95961.herokuapp.com/">
+							<a
+								style={{ display: "table-cell" }}
+								href="https://quiet-badlands-95961.herokuapp.com/"
+								rel="noreferrer noopener"
+								target="_blank"
+							>
 								Deployment
 							</a>
 						</div>
 						<div>
-							<a href="https://github.com/BrettSevy/project3">
+							<a
+								style={{ display: "table-cell" }}
+								href="https://github.com/BrettSevy/project3"
+								rel="noreferrer noopener"
+								target="_blank"
+							>
 								Source Code
 							</a>
 						</div>
@@ -48,12 +68,22 @@ function Projects() {
 					<div className="info">
 						<div className="project-title">Stocks Management</div>
 						<div>
-							<a href="https://project2-umesh-brett-javier-sa.herokuapp.com/">
+							<a
+								style={{ display: "table-cell" }}
+								href="https://project2-umesh-brett-javier-sa.herokuapp.com/"
+								rel="noreferrer noopener"
+								target="_blank"
+							>
 								Deployment
 							</a>
 						</div>
 						<div>
-							<a href="https://github.com/Sanjula8/project-2">
+							<a
+								style={{ display: "table-cell" }}
+								href="https://github.com/Sanjula8/project-2"
+								rel="noreferrer noopener"
+								target="_blank"
+							>
 								Source Code
 							</a>
 						</div>

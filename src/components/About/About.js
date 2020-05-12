@@ -36,6 +36,8 @@ function About() {
 								<p>
 									<a
 										href={resume}
+										rel="noreferrer noopener"
+										target="_blank"
 										className="resume-button btn btn-dark"
 									>
 										<i className="fa fa-download"></i>
@@ -43,12 +45,6 @@ function About() {
 									</a>
 								</p>
 							</div>
-							{/* <div className="skills-title">Skills</div>
-							<div className="skills">
-								Git | JavaScript | Node.js | React.js | CSS |
-								HTML5 ES6 | Express.js | AJAX MERN Stack |
-								MongoDB | Mongoose MySQL | Sequelize
-							</div> */}
 						</div>
 					</div>
 				</section>

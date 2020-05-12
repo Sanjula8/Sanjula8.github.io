@@ -1,9 +1,5 @@
 import React from "react";
-import {
-	faGithubAlt,
-	faInstagram,
-	faLinkedin,
-} from "@fortawesome/free-brands-svg-icons";
+import { faGithubAlt, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "../Navbar/nav.css";
 import { Link } from "react-router-dom";
@@ -74,14 +70,6 @@ function Aside() {
 					</li>
 				</ul>
 				<ul className="mt-3 social">
-					{/* <li className="ftco-animate">
-						<a href="https://www.instagram.com/thesunmademeblind/">
-							<FontAwesomeIcon
-								className="instagram"
-								icon={faInstagram}
-							/>
-						</a>
-					</li> */}
 					<li className="ftco-animate">
 						<a href="https://github.com/Sanjula8">
 							<FontAwesomeIcon

@@ -1,12 +1,8 @@
 import React, { useState } from "react";
 import axios from "axios";
 import "../Contact/contact.css";
-import {
-	faGithubAlt,
-	faInstagram,
-	faLinkedin,
-} from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope, faMobile } from "@fortawesome/free-solid-svg-icons";
+import { faGithubAlt, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Contact() {
@@ -121,12 +117,6 @@ function Contact() {
 							</div>
 						</div>
 						<div className="social-contact">
-							{/* <a href="https://www.instagram.com/thesunmademeblind/">
-								<FontAwesomeIcon
-									className="c-instagram"
-									icon={faInstagram}
-								/>
-							</a> */}
 							<a href="https://github.com/Sanjula8">
 								<FontAwesomeIcon
 									className="c-github"
